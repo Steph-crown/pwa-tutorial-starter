@@ -1,0 +1,20 @@
+{
+    "name": "Studylove PWA",
+    "short_name": "Studylove PWA",
+    "start_url": ".",
+    "background_color": "#FFEE99",
+    "theme_color": "#F7CA00",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "assets/logo192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/logo512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
