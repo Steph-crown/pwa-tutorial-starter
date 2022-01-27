@@ -16,5 +16,11 @@ self.addEventListener("install", (e) => {
 
 // Runs whenever their is a fetch request
 self.addEventListener("fetch", (e) => {
+    // CHecks the cache to find matching request. If there is a cached version of the request, it returns the cached version, otherwise it makes a new request.
+    e.respondWith(
+        caches.match(e.request).then((res) => {
+            return res || fetch(e.request);
+        })
+    );
     console.log(e.request);
 });
