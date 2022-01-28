@@ -1,9 +1,10 @@
 {
     "name": "Studylove PWA",
-    "short_name": "Studylove PWA",
+    "short_name": "Studylove",
+    "description": "This is a PWA tutorial created by Steph Crown",
     "start_url": ".",
-    "background_color": "#FFEE99",
-    "theme_color": "#F7CA00",
+    "background_color": "#B3D1FF",
+    "theme_color": "#0A0F75",
     "display": "standalone",
     "icons": [
         {
